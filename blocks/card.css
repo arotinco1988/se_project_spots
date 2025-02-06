@@ -9,6 +9,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.card__title {
+  margin-bottom: 0;
+}
+
 .card__like-button {
   background-image: url(../images/like.svg);
   width: 23px;
@@ -16,10 +20,17 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  margin-top: auto;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__like-button {
+    width: 20px;
+    height: 18px;
+    background-size: contain;
   }
 }
