@@ -1,0 +1,9 @@
+.footer {
+  padding: 40px 0px;
+}
+.footer__copyright {
+  text-align: center;
+  color: #212121;
+  opacity: 70%;
+  font-weight: 400;
+}

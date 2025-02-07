@@ -11,6 +11,13 @@
 }
 .card__title {
   margin-bottom: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 380px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .card__like-button {
@@ -23,7 +30,12 @@
   margin-top: auto;
 }
 
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 630px) {
+  .card__title {
+    font-size: 16px;
+    line-height: 1;
+  }
+
   .card__image {
     height: 288px;
   }
