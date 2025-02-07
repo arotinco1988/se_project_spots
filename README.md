@@ -12,15 +12,21 @@ This is the third project of the Software Engineering program at TripleTen. It w
 
 ## Figma
 
-https://www.figma.com/design/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project%3A-Spots?node-id=0-1&p=f&t=IMIsA4Q4QpRgdIk8-0
+- Figma Link:
+  https://www.figma.com/design/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project%3A-Spots?node-id=0-1&p=f&t=IMIsA4Q4QpRgdIk8-0
 
 ## Images
 
-Exported from Figma and optimized using TinyPNG. The size didnt change much when converted for optimization. 
+Exported from Figma and optimized using TinyPNG. The size didnt change much when converted for optimization.
+
+## Deployment
+
+This project is deployed on Github
+
+- Deployment Link:
+  https://arotinco1988.github.io/se_project_spots/
 
 ## Plan on improving the project
 
 - Make buttons clickable so actions like "Edit Profile" can work
 - Maybe when images are hovered over, they can pop out.
- 
-
