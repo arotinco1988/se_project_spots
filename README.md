@@ -26,6 +26,10 @@ This project is deployed on Github
 - Deployment Link:
   https://arotinco1988.github.io/se_project_spots/
 
+## Project Video Explantion
+
+Video Link: https://drive.google.com/file/d/1QjT4DmMYGYTF5VuUD_19HTwVdXG8-m1c/view?usp=drive_link
+
 ## Plan on improving the project
 
 - Make buttons clickable so actions like "Edit Profile" can work

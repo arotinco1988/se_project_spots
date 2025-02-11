@@ -29,12 +29,19 @@
   background-color: transparent;
   opacity: 40%;
   margin-top: auto;
+  cursor: pointer;
+}
+
+.card__like-button:hover {
+  filter: invert(5%) sepia(1%) saturate(658%) hue-rotate(314deg) brightness(99%)
+    contrast(83%);
+  opacity: 100%;
 }
 
 @media screen and (max-width: 630px) {
   .card__title {
     font-size: 16px;
-    line-height: 1;
+    max-width: 268px;
   }
 
   .card__image {
@@ -45,5 +52,6 @@
     width: 20px;
     height: 18px;
     background-size: contain;
+    background-repeat: no-repeat;
   }
 }
