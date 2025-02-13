@@ -40,6 +40,7 @@
   opacity: 70%;
   font-weight: 500;
   line-height: 1;
+  font-size: 16px;
 }
 .profile__edit-btn {
   margin-top: auto;
@@ -53,11 +54,17 @@
   gap: 8px;
   display: flex;
   opacity: 70%;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #212121;
 }
 
 .profile__edit-btn:hover {
+  /*
   filter: invert(5%) sepia(1%) saturate(658%) hue-rotate(314deg) brightness(99%)
     contrast(83%);
+    */
   opacity: 100%;
 }
 
@@ -83,9 +90,9 @@
 }
 
 .profile__add-btn:hover {
-  background-color: #212121;
+  /*background-color: #212121;*/
   opacity: 80%;
-  color: #fcf5e5;
+  /*color: #fcf5e5;*/
 }
 
 .profile__add-btn-image {
