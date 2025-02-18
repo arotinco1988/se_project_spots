@@ -120,6 +120,36 @@
       <footer class="footer">
         <p class="footer__copyright">2025 &copy; SPOTS</p>
       </footer>
+
+      <div class="modal modal__opened">
+        <div class="modal__container">
+          <button class="modal__close-btn" type="submit"></button>
+          <h2 class="modal__title">Edit Profile</h2>
+          <form name="edit-profile" class="modal__form">
+            <label for="name" class="modal__label">
+              <span class="modal__input-title">Name</span>
+
+              <input
+                id="name"
+                type="text"
+                class="modal__input"
+                placeholder="Type your name"
+              />
+            </label>
+
+            <label for="description" class="modal__label">
+              <span class="modal__input-title">Description</span>
+              <input
+                id="description"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              />
+            </label>
+            <button class="modal__submit-btn" type="submit">Save</button>
+          </form>
+        </div>
+      </div>
     </div>
     <script defer src="./scripts/index.js"></script>
   </body>
