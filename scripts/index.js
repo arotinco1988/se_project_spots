@@ -102,6 +102,8 @@ function handleAddCardSubmit(evt) {
   const cardElement = getCardElement(inputValues);
   cardList.prepend(cardElement);
   closeModal(newPostModal);
+  newPostCaptionInput.value = "";
+  newPostNameInput.value = "";
 }
 
 function getCardElement(data) {
